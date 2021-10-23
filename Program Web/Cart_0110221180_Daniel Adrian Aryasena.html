@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+    <Head>Cart
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="ShoppingCart.html" type="text/html">
+    </Head>
+    <body>
+        <fieldset style="background-color: rgb(206, 206, 206);">
+            <header>
+                <h1>Shopii</h1>
+            <div>
+                <table>
+                    <th><a href="/categories 1">categories 1</a></th>
+                    <th><a href="/categories 2">categories 2</a></th>
+                    <th><a href="/categories 3">categories 3</a></th>
+                </table>
+                <button>Search</button>
+            </div>
+            </header>
+        </fieldset>
+        <fieldset>
+            <header><h2>Your Cart</h2></header>
+            <table>
+                <tr>
+                    <th>Item</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                </tr>
+                <tr>
+                    <td>
+                        <figure>
+                            <img src="wall/Laptop.png"
+                           alt="The Pulpit Rock" width="304"
+                           height="228">
+                        </figure>
+                    </td>
+                    <td><input type="text" id="Price"  value="4.500.000" onchange="total()"></td>
+                    <td><input type="number" id="qty_laptop" value="1" onchange="total()">
+                    <td colspan="3">Grand Total</td><td><input type="text" id="total_harga"  value="4.500.000"></td>
+                    </tr>
+                </tr>
+            </table>
+        </fieldset>
+    </body>   
+    <footer>
+            <fieldset style="background-color: rgb(255, 255, 255);" style="width: 50%;">
+                <body>
+                    <h3>Shopii</h3>
+                <div>
+                    <table>
+                        <td><a href="/categories 1">categories 1</a></td>
+                        <td><a href="/categories 2">categories 2</a></td>
+                        <td><a href="/categories 3">categories 3</a></td>
+                    </table>
+                </div>
+                <div>
+                    <form>
+                        <fieldset>
+                            <legend>Data User</legend>
+                            <div>
+                                <label>Username</label>
+                                <input type="text" name="Username"
+                                    value="" size="20"/>
+                            </div>
+                            <div>
+                                <label>Password</label>
+                                <input type="password" name="passwd" 
+                                    value="" size="20"/>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </body>
+            </fieldset>
+    </footer>
+</html>
